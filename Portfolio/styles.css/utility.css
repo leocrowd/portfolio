@@ -1,0 +1,16 @@
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    p {
+        font: var(--text-sm);
+        color: var(--red);
+    }
+
+    h2 {
+        font: var(--title-md);
+        color: var(--gray-600);
+    }
+}

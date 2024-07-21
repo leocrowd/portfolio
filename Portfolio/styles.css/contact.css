@@ -1,0 +1,71 @@
+#contact {
+    background-image: url(../assets/Background_Contacts.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    display: grid;
+    
+}
+
+.text span {
+    font: var(--subtitle);
+    color: var(--purple);
+    margin-bottom: 8px;
+    
+}
+
+#contact p {
+    font: var(--text-md);
+    color: var(--gray-600);
+    margin-top: 8px;
+}
+
+
+button {
+    background-color: var(--gray-300);
+    border: none;
+    font: var(--text-md);
+    color: var(--gray-500);
+    border-radius: 8px;
+
+    width: 400px;
+    height: 68px;
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+.first-img {
+    margin-left: 20px;
+}
+
+
+
+button span {
+    margin-left: 12px;
+    width: 288px;
+    text-align: left;
+    
+}
+
+#links-container {
+    display: grid;
+    justify-content: center;
+    row-gap: 16px;
+    margin-top: 48px;
+    margin-bottom: 200px;
+}
+
+button:hover {
+    border: 1px solid #3996DB;
+
+}
+
+object {
+    margin-left: 20px;
+}
+
+object:hover {
+    color: #3996DB;
+}
